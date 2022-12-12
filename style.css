@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family= família= Montserrat:wght@100;800 & display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+    
+}
+
+li{
+    margin: 15px;
+    color: #bbbbbb;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px;
+    background-color: white;
+    width: auto;
+    height: 83px;
+}
+
+nav p{
+font-size: 40px;
+font-weight: bold;
+padding-left: 30px;
+}
+
+.Portfolio{
+    color: #000000;
+    font-weight: bold;
+}
+
+img{
+    width: 1280px;
+}
+
+h1{
+    font-size: 52px;
+    padding-left: 80px;
+    font-family:'Montserrat', sans-serif;;
+    font-weight: bold;
+}   
+ 
+h2{
+    font-size: 35px;
+    padding-left: 85px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: lighter;
+    cursor: pointer;
+    }   
+
+    .a:link{
+          color: white;      
+          text-decoration: none;
+          
+    }
+
+.Container{
+    background-image: url(/laranja\ azul\ recorte.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 550px;
+    color: white;
+    top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.Elemento{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    line-height: 100px;
+}
+
+li:hover{
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    transition: 500ms;
+    transform: scale(130%);
+   
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    background-color: antiquewhite;
+}
+
+.SectionFotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 850px;
+    padding: 40px;
+    gap: 10px;   
+}
+
+/* .SectionFotos:hover img{
+    transition: 500ms;
+    transform: scale(96%);
+} */
+
+.RedesSociais{
+    display: flex;
+    flex-wrap: wrap;
+    
+   }
+ 
