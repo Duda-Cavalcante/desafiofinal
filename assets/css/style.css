@@ -5,29 +5,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat";
 }
 
-ul{
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+nav ul{
     list-style: none;
     display: flex;
     font-size: 15px;
+    flex-wrap: wrap;
     
 }
 
-li{
+nav ul li{
     margin: 15px;
-    color: #bbbbbb;
+    color: #B3B3B3;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin: auto 30px;
-    font-family: 'Montserrat', sans-serif;
     padding: 17px;
     background-color: white;
     width: auto;
-    height: 83px;
+    
 }
 
 nav p{
@@ -36,19 +41,26 @@ font-weight: bold;
 padding-left: 30px;
 }
 
-.Portfolio{
+.MenuAtivo{
     color: #000000;
     font-weight: bold;
 }
 
-img{
-    width: 1280px;
+.Logo{
+    max-height: 49px;
+    max-width: 180px;
+    
+}
+
+.Logo img{
+    height: 100%;
+    width: 100%;
 }
 
 h1{
     font-size: 52px;
     padding-left: 80px;
-    font-family:'Montserrat', sans-serif;;
+    line-height: 100%;
     font-weight: bold;
 }   
  
@@ -68,12 +80,13 @@ h2{
     }
 
 .Container{
-    background-image: url(/laranja\ azul\ recorte.png);
+    background-image: url(/assets/img/laranja\ azul\ recorte.png);
     background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    height: 550px;
+     height: 550px;
     color: white;
     top: 70px;
     display: flex;
@@ -85,10 +98,11 @@ h2{
     justify-content: center;
     flex-direction: column;
     background-position: center;
-    line-height: 100px;
+    
+    
 }
 
-li:hover{
+nav ul li:hover{
     font-size: 18px;
     font-weight: bolder;
     color: black;
@@ -100,7 +114,7 @@ li:hover{
 img{
     width: 250px;
     height: 250px;
-    background-color: antiquewhite;
+    
 }
 
 .SectionFotos{
@@ -111,15 +125,60 @@ img{
     padding: 40px;
     gap: 10px;   
 }
+.SectionFotos img{
+ transition: ease-in-out 0.5s;
+}
 
-/* .SectionFotos:hover img{
-    transition: 500ms;
-    transform: scale(96%);
-} */
+.SectionFotos img:hover {
+    transform: scale(1.1);
+}
+
+.FooterContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
 
 .RedesSociais{
     display: flex;
-    flex-wrap: wrap;
-    
+    list-style: none;
+    gap: 15px;
    }
- 
+
+   .RedesSociais li {
+     height: 30px;
+     width: 30px;
+   }
+
+   .RedesSociais li img{
+     height: 100%;
+     width: 100%;
+   }
+
+   footer{
+    height: 10vh;
+    width: 100px;
+    background-color: #b4b4b4;
+   }
+
+   .Copyright {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+   }
+
+   .Copyright p{
+    font-size: 0.7rem;
+
+    color: #000;
+   }
+
+  
+   .pLayout{
+    color: #b4b4b4;
+   }
+
+   
